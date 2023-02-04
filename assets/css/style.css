@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/*this is the header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,12 +18,12 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
+/*this is the header */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* header styling */
 header h1 .seo {
     color: #d9dcd6;
 }
@@ -53,6 +54,7 @@ p {
     font-size: 16px;
 }
 
+/* figure is Main picture on site */
 figure {
     height: 800px;
     width: 100%;
@@ -62,6 +64,7 @@ figure {
     background-position: center;
 }
 
+/* imagaes in the main section*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -81,9 +84,10 @@ main {
 img {
     width: 30%;
     height: auto
-    
+
 }
 
+/*section on right side of page */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -131,7 +135,7 @@ main section h2 {
     font-size: 36px;
 }
 
-
+/*bottom of page*/
 footer {
     padding: 30px;
     clear: both;
