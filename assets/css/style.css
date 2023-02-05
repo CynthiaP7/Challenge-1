@@ -51,7 +51,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 25px;
 }
 
 /* figure is Main picture on site */
@@ -97,6 +97,7 @@ aside {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    
 }
 
 aside section {
@@ -108,12 +109,19 @@ aside section {
 aside section h3 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: 35px;
+}
+
+aside section p {
+    font-size: 25px
 }
 
 aside section img {
     display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    margin: 30px auto;
+    max-width: 100%;
+    height: auto;
+
 }
 
 main section {
@@ -124,12 +132,6 @@ main section {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-
-aside section img {
-    max-height: 200px;
-}
-
 
 main section h2 {
     margin-bottom: 20px;
